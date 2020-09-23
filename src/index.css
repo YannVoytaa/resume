@@ -63,13 +63,13 @@ body{
 .scroll{
   font-family: 'Grandstander', cursive;
   color: rgb(2, 227, 206);
-  font-size: 3rem;
+  font-size: 5rem;
   text-shadow: 2px 2px #709977;
   position: relative;
   display: inline-block;
   transform-origin: left;
   transform: scaleX(0);
-  transition: 0.25s;
+  transition: 0.5s;
 }
 .scroll:before{
   content: "";
@@ -80,7 +80,7 @@ body{
   height: 100%;
   background: rgb(2, 227, 206);
   transform-origin: right;
-  transition: 0.25s;
+  transition: 0.5s;
   transition-delay: 0s;
 }
 .container{
@@ -105,7 +105,7 @@ body{
 }
 .scroll.active:before{
   transform: scaleX(0);
-  transition-delay: 0.25s;
+  transition-delay: 0.5s;
 }
 .scroll-block{
   transform: scaleX(0);

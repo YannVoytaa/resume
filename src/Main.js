@@ -43,7 +43,7 @@ const Pro_text=<div>
 const Con_text=<div>
   <ul>
     <li className='tooltip'><a href='https://www.linkedin.com/in/jan-wojtach-1205141b5/'>LinkedIn</a></li>
-    <li>Mail: wojtachjanek@gmail.com</li>
+    <li className='mail'>Mail: wojtachjanek@gmail.com</li>
   </ul>
 </div>
 
@@ -63,12 +63,13 @@ class Main extends React.Component{
     });
     const blocks=gsap.utils.toArray('.scroll-block')
     blocks.forEach((item, i) => {
+      let h=item.getBoundingClientRect().height+100
       ScrollTrigger.create({
         trigger: item,
         toggleClass: 'active',
         start: "top 80%",
-        end: "top 5%",
-        markers: false,
+        end: "+="+h,
+        markers: true,
       })
     });
     const tl=gsap.timeline()

@@ -72,7 +72,7 @@ class Main extends React.Component{
       })
     });
     const tl=gsap.timeline()
-    tl.to('.hide>span',{y:"0%",duration:1},0.25)
+    tl.to('.hide>span',{y:"0%",duration:1, stagger:0.25},0.25)
     tl.to('.slider',{y:"-100%",duration:2},2)
     tl.to('.begin',{y:"-100%",duration:1},2.6)
   }

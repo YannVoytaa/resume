@@ -69,7 +69,7 @@ class Main extends React.Component{
         toggleClass: 'active',
         start: "top 80%",
         end: "+="+h,
-        markers: true,
+        markers: false,
       })
     });
     const tl=gsap.timeline()

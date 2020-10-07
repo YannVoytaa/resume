@@ -21,7 +21,7 @@ const Edu_text=<div>
   <ul>
     <li>2020-now: University of Warsaw</li>
   </ul>
-  <p style={{color:'rgb(2, 227, 206)'}}>Skills:</p>
+  <p style={{color:'#002b87'}}>Skills:</p>
   <ul>
     <li>English: Upper-Intermediate ~ Advanced</li>
     <li>German: Elementary ~ Intermediate</li>

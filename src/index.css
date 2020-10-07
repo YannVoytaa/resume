@@ -8,38 +8,54 @@ body{
   background-attachment: fixed;
   background-size: 100% calc(100vh - 100px);
   background-position: 0px 50px;
-  background: linear-gradient(to bottom, #0B0C10,#1F2833);
+  background: #ededed;
 }
-.header{
-  //font-family: 'Grandstander', cursive;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 2rem;
-  display: inline-block;
-  background: #0B0C10;
-  /*rgba(56, 64, 58,1);*/
-  margin:0 auto 100px auto;
+header{
+  font-family: 'Ubuntu', sans-serif;
+}
+.header-container{
   width:100%;
-  height:50px;
+  background: #f1ebf5;
 }
-.header > span{
-  position: relative;
-  top:10px;
-  left:15%;
-  color: #45A29E;
+.container-flex{
+  display:flex;
+  justify-content: space-around;
 }
-.header > ul{
+.title,header ul{
+  padding:1.5em;
+  //border:10px solid green;
+}
+.title{
+  text-align: center;
+}
+.title h1{
+  color:#002b87;
+}
+.title p{
+  color:#2f68e0;
+}
+header ul{
   list-style-type: none;
-  display: inline;
-  float: right;
-  position: relative;
-  top:8px;
+  display: flex;
+  align-items: center;
 }
-.header > ul > li{
-  display: inline;
-  margin:6px;
+header li{
+  margin-left: 2em;
 }
-.main{
+header a{
+  text-decoration: none;
+  color:#2f68e0;
 }
+
+@media screen and (max-width:650px){
+  .header-container{
+    flex-direction: column;
+  }
+  header ul{
+    justify-content: center;
+  }
+}
+
 .freepik{
   position: relative;
   bottom: 0;
@@ -50,10 +66,10 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background: #1F2833;
+  background: #f1ebf5;
   width: 100%;
   height: 50px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   text-align: center;
 }
@@ -63,8 +79,8 @@ body{
   margin:40px auto;
 }
 .scroll{
-  font-family: 'Grandstander', cursive;
-  color: #66FCF1;
+  font-family: 'Lora', serif;
+  color:#002b87;
   font-size: 5rem;
   text-shadow: 2px 2px #709977;
   position: relative;
@@ -80,7 +96,7 @@ body{
   left:0;
   width: 100%;
   height: 100%;
-  background: #66FCF1;
+  background: #002b87;
   transform-origin: right;
   transition: 0.5s;
   transition-delay: 0s;
@@ -90,7 +106,6 @@ body{
   height:auto;
   background: white;
   margin:10px auto;
-  box-shadow: 0px 0px 40px 20px rgba(0,0,0,1);
   border-radius: 25px;
 }
 /*.bg{
@@ -111,31 +126,25 @@ body{
 }
 .scroll-block{
   transform: scaleX(0);
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
   transition: 1s;
+  color:#4d4d4d;
 }
-.scroll-block:before{
-  background: black;
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
-  transition: 1s;
-}
+
 .scroll-block.active{
   transform: scaleX(1);
-  box-shadow: 0px 0px 40px 20px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 38px 2px #002b87;
+-moz-box-shadow: 0px 0px 38px 2px #002b87;
+box-shadow: 0px 0px 38px 2px #002b87;
   transition: 1s;
 }
-.scroll-block.active:before{
-  transform: scaleX(0);
-  box-shadow: 0px 0px 40px 20px rgba(0,0,0,1);
-  transition: 1s;
-}
+
 .slider{
   position: fixed;
   top:0;
   left:0;
   width:100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, #0B0C10, #1F2833);
+  background: linear-gradient(to bottom, #f1ebf5, #ededed);
   transform: translateY(100%);
 }
 .begin{
@@ -144,26 +153,24 @@ body{
   left: 0;
   width: 100vw;
   height: 100vh;
-  background:#0B0C10;
+  background: #f1ebf5;
   text-align: center;
 }
 .hide{
-  background: #0B0C10;
+  background: #f1ebf5;
   overflow: hidden;
   margin: 100px 0;
 }
 .hide > span{
   display: inline-block;
-  color:#45A29E;
+  color:#002b87;
   text-shadow: 1px 1px #0000ff;
-  //font-family: 'Grandstander', cursive;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size:5rem;
   transform: translateY(110%);
 }
 .container > div > p{
-  font-family: 'Grandstander', cursive;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size:1.8rem;
   margin:40px;
   //font-size: 1.3rem;
@@ -172,7 +179,7 @@ body{
 
 .container > div > ul > li{
   margin: 40px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size:1.8rem;
 }
 
@@ -205,7 +212,7 @@ body{
 }
 .tooltip > a{
   text-decoration: none;
-  color:#45A29E;
+  color:#002b87;
 }
 
 

@@ -30,9 +30,10 @@ const Edu_text=<div>
 
 const Pro_text=<div>
   <ul>
-    <li className='tooltip'><a href='https://github.com/YannVoytaa/react'>React</a><span className='tooltiptext'>All my current React Projects</span></li>
+    <li className='tooltip'><a href='https://github.com/YannVoytaa/react_visualizeBFS'>React BFS visualization</a><span className='tooltiptext'>BFS simulation</span></li>
+    <li className='tooltip'><a href='https://github.com/YannVoytaa/react_doodler'>React Doodler</a><span className='tooltiptext'>React doodler app</span></li>
     <li className='tooltip'><a href='https://github.com/YannVoytaa/data_structures'>Advanced Data Structures</a><span className='tooltiptext'>Complex algorithms written in C++</span></li>
-    <li className='tooltip'><a href='https://github.com/YannVoytaa/POI'>POI</a><span className='tooltiptext'>My solutions to POI problems</span></li>
+    <li className='tooltip'><a href='https://github.com/YannVoytaa/POI'>POI</a><span className='tooltiptext'>My solutions to "Polish Olympiad in IT" problems</span></li>
     <li className='tooltip'><a href='https://github.com/YannVoytaa/django_multiproject'>Django Multiproject</a><span className='tooltiptext'>Multi-game Django app</span></li>
     <li className='tooltip'><a href='https://github.com/YannVoytaa/Django2'>Django ToDo</a><span className='tooltiptext'>To-Do List written in Django</span></li>
     <li className='tooltip'><a href='https://github.com/YannVoytaa/django'>Django CraigsList Clone</a><span className='tooltiptext'>Craigslist Clone in Django using Web Scraping</span></li>

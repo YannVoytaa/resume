@@ -44,7 +44,7 @@ const Pro_text=<div>
 const Web_text=<div>
     <ul>
     <li className='tooltip'><a href="https://yannvoytaa.github.io/react_visualizeBFS/" target='_blank'>BFS visualization <img src="./bfs.png"/></a></li>
-    <li className='tooltip'><a href="https://yannvoytaa.github.io/react_doodler/" target='_blank'>Doodler <img src="./doodler.png" style="width:40%"/></a></li>
+    <li className='tooltip'><a href="https://yannvoytaa.github.io/react_doodler/" target='_blank'>Doodler <img src="./doodler.png" style={{width:"40%"}}/></a></li>
     <li className='tooltip'><a href="https://todo-811.herokuapp.com/" target='_blank'>Todo Django <img src="./todo.png"/></a></li>
     <li className='tooltip'><a href="http://gentle-depths-95467.herokuapp.com/new_search/" target='_blank'>CraigsList clone <img src="./craig.png"/></a></li>
     </ul>

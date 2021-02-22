@@ -41,6 +41,15 @@ const Pro_text=<div>
   </ul>
 </div>
 
+const Web_text=<div>
+    <ul>
+    <li className='tooltip'><a href="https://yannvoytaa.github.io/react_visualizeBFS/" target='_blank'>BFS visualization <img src="./bfs.png"/></a></li>
+    <li className='tooltip'><a href="https://yannvoytaa.github.io/react_doodler/" target='_blank'>Doodler <img src="./doodler.png" style="width:40%"/></a></li>
+    <li className='tooltip'><a href="https://todo-811.herokuapp.com/" target='_blank'>Todo Django <img src="./todo.png"/></a></li>
+    <li className='tooltip'><a href="http://gentle-depths-95467.herokuapp.com/new_search/" target='_blank'>CraigsList clone <img src="./craig.png"/></a></li>
+    </ul>
+</div>
+
 const Con_text=<div>
   <ul>
     <li className='tooltip'><a href='https://www.linkedin.com/in/jan-wojtach-1205141b5/'>LinkedIn</a></li>
@@ -84,6 +93,7 @@ class Main extends React.Component{
         <Topic subject="Bio" text={Bio_text}/>
         <Topic subject="Education & Skills" text={Edu_text}/>
         <Topic subject="Projects" text={Pro_text}/>
+        <Topic subject="Other sites" text={Web_text}/>
         <Topic subject="Contact me" text={Con_text}/>
         <div className='freepik'>Icons made by <a href="https://www.flaticon.local/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.local/" title="Flaticon">www.flaticon.local</a></div>
         <div className='begin'>
